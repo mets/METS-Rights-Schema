@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RightsDeclarationMD xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.loc.gov/standards/rights/METSRights.xsd" RIGHTSDECID="RD-003" RIGHTSCATEGORY="CONTRACTUAL">
+  <RightsDeclaration>Access to this pre-print article is available until 
+    published by DoWrite Publishing Co. in the Journal of Hieroglyphics in 
+    June 2004.  After publication, a link to the published article should 
+    appear when the pre-print article is displayed.</RightsDeclaration>
+  <RightsHolder RIGHTSHOLDERID="RFC-1357" CONTEXTIDS="SCS-001 SCS-002 SCS-003">
+    <RightsHolderName>Professor Sarah Plaintall</RightsHolderName>
+    <RightsHolderComments>Comments and questions about this pre-print 
+      article should be directed to Professor Sarah Plaintall, Creative 
+      Writing Dept., Stanford University.</RightsHolderComments>
+    <RightsHolderContact>
+      <RightsHolderContactDesignation>Permissions 
+	Dept.</RightsHolderContactDesignation>
+      <RightsHolderContactAddress>DoWrite Publishing, 455 StraightNarrow 
+	Street, Heartland, America</RightsHolderContactAddress>
+      <RightsHolderContactPhone PHONETYPE="BUSINESS">(xxx)xxx-xxxx</RightsHolderContactPhone>
+      <RightsHolderContactEmail>permissions@dowrite.com</RightsHolderContactEmail>
+    </RightsHolderContact>
+  </RightsHolder>
+  <Context CONTEXTID="SCS-001" CONTEXTCLASS="OTHER" OTHERCONTEXTTYPE="Contracted Author">
+    <UserName USERTYPE="INDIVIDUAL">Professor Sarah Plaintall</UserName>
+    <Permissions DISCOVER="true" DISPLAY="true" COPY="true" DUPLICATE="true" MODIFY="true" DELETE="true" PRINT="true"/>
+    <Constraints CONSTRAINTTYPE="TIME">
+      <ConstraintDescription>Author has full permissions over pre-print 
+	article per agreement with publisher until article is officially 
+	published in the Journal of Hierglyphics in June 2004.  After that time, 
+	author and repository agree to keep pre-print article in repository, but 
+	provide link to published article upon display of pre-print 
+	version.</ConstraintDescription>
+    </Constraints>
+  </Context>
+  <Context CONTEXTID="SCS-002" CONTEXTCLASS="MANAGED GRP">
+    <UserName USERTYPE="GROUP">Plaintall Collaborators</UserName>
+    <Permissions DISCOVER="true" DISPLAY="true" COPY="true" DUPLICATE="false" MODIFY="false" DELETE="false" PRINT="true"/>
+    <Constraints CONSTRAINTTYPE="TIME">
+      <ConstraintDescription>The group of collaborators with whom the 
+	Author is working have some permissions related to use of the pre-print 
+	article until the article is published in the Journal of Hierglyphics in 
+	June 2004 per publisher - author agreement.  After that time, the 
+	managed group of collaborators will have access only as member of the 
+	repository's general public.</ConstraintDescription>
+    </Constraints>
+  </Context>
+  <Context CONTEXTID="SCS-003" CONTEXTCLASS="GENERAL PUBLIC">
+    <UserName USERTYPE="INDIVIDUAL">Authorized User</UserName>
+    <Permissions DISCOVER="true" DISPLAY="true" COPY="false" DUPLICATE="false" MODIFY="false" DELETE="false" PRINT="false"/>
+    <Constraints CONSTRAINTTYPE="TIME">
+      <ConstraintDescription>An authorized member of the repository general 
+	public may only discover and display the pre-print article after the 
+	article is published in the Journal of Hierglyphics in June 2004 per 
+	publisher - author agreement.  After that time, a link to the published 
+	article should be displayed along with the pre-print 
+	article.</ConstraintDescription>
+    </Constraints>
+  </Context>
+  <Context CONTEXTID="SDR001" CONTEXTCLASS="REPOSITORY MGR">
+    <UserName USERTYPE="GROUP">ReposDataManagers</UserName>
+    <Permissions DISCOVER="true" DISPLAY="true" COPY="true" DUPLICATE="true" MODIFY="true" DELETE="true" PRINT="true" OTHER="false"/>
+  </Context>
+</RightsDeclarationMD>

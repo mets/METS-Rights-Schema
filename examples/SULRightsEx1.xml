@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RightsDeclarationMD 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:noNamespaceSchemaLocation="http://www.loc.gov/standards/rights/METS
+Rights.xsd" RIGHTSDECID="RD-001" RIGHTSCATEGORY="CONTRACTUAL">
+	<RightsDeclaration>Computer files closed until 2004 unless permission 
+granted by the Allen Ginsberg Estate.</RightsDeclaration>
+	<RightsHolder RIGHTSHOLDERID="RH-001" CONTEXTIDS="Ginsberg-001 Ginsberg-002 SDR-001">
+		<RightsHolderName>Allen Ginsberg Estate</RightsHolderName>
+		<RightsHolderComments>Computer files contain confidential financial 
+information which Ginsberg requested not be made available to his family 
+and friends until 7 years after his demise.</RightsHolderComments>
+		<RightsHolderContact>
+			<RightsHolderContactDesignation>Bob 
+Rosenthal</RightsHolderContactDesignation>
+			<RightsHolderContactAddress>Allen Ginsberg Trust, P.O. Box 582, 
+Stuyvesant Station, NY, 10009 					</RightsHolderContactAddress>
+			<RightsHolderContactPhone 
+PHONETYPE="BUSINESS">(xxx)xxx-xxxx</RightsHolderContactPhone>
+		</RightsHolderContact> 
+	</RightsHolder>
+	<Context CONTEXTCLASS="MANAGED GRP" CONTEXTID="Ginsberg-001">
+		<UserName>SpecGinsbergManage</UserName>
+		<Permissions DISCOVER="true" DISPLAY="true" COPY="true" 
+DUPLICATE="true" MODIFY="false" DELETE="false" PRINT="true" />
+		<Constraints CONSTRAINTTYPE="OTHER" OTHERCONSTRAINTTYPE="User 
+Type">
+			<ConstraintDescription>Once the resources are added to the 
+repository, the SpecGinsbergManage group cannot delete or modiy the 
+content, but can copy, display, discover, duplicate and print it.  The 
+managers of the group can also assign members of teh SpecGinsbergPublic 
+Group</ConstraintDescription>
+		</Constraints>
+	</Context>  
+	<Context CONTEXTCLASS="MANAGED GRP" CONTEXTID="Ginsberg-002">
+		<UserName>SpecGinsbergPublic</UserName>
+		<Permissions DISCOVER="true" DISPLAY="true" COPY="false" 
+DUPLICATE="false" MODIFY="false" DELETE="false" PRINT="true"/>
+		<Constraints CONSTRAINTTYPE="TIME">
+			<ConstraintDescription>The SpecGinsbergManage group must approve 
+membership of the SpecGinsbergPublic group, and can only do so after 
+receiving written permission from the Ginsberg Estate.  Membership to 
+this group wil be set for specific time periods; after that, the 
+specific user must reapply to be readmitted. </ConstraintDescription>
+		</Constraints>
+	</Context>
+	<Context CONTEXTCLASS="MANAGED GRP" CONTEXTID="SDR-001">
+		<UserName>ReposDataManagers</UserName>
+		<Permissions DISPLAY="true" DISCOVER="true" PRINT="true" 
+COPY="true" DUPLICATE="true" MODIFY="true" DELETE="true"/>
+		<Constraints>
+			<ConstraintDescription>The ReposDataManagers group has no 
+restrictions.  Membership to this group is extended by the Repository 
+Manager.</ConstraintDescription>
+		</Constraints>
+	</Context>
+</RightsDeclarationMD>
